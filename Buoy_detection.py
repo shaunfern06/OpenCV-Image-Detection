@@ -16,7 +16,7 @@ for template in templates:
     # location will be = minloc)
     bottom_right = (location[0] + w, location[1] + h)
 
-    cv.rectangle(img_colored, location, bottom_right, (255, 255, 255), 1)  # buoy outline
+    cv.rectangle(img_colored, location, bottom_right, (255, 255, 255), 1)  # outline
     rect_centre = (
     (location[0] + bottom_right[0]) // 2, (location[1] + bottom_right[1]) // 2)  # finding centre of buoys
 
