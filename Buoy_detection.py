@@ -1,5 +1,6 @@
 import cv2 as cv
 
+a=0
 img_colored = cv.imread('Photos/buoys.png')
 img = cv.imread('Photos/buoys.png', 0)
 templates = [cv.imread('Photos/green_buoy.png', 0), cv.imread('Photos/yellow_buoy.png', 0),
